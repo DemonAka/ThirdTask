@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SecondTask
 {
@@ -22,39 +18,56 @@ namespace SecondTask
                 string cards = Console.ReadLine(); //Используем тип string, вместо char, так как карта '10' имеет два символа. 
                 switch (cards)
                 {
-                    case "2": sumCards = sumCards + 2; 
+                    case "2":
+                        sumCards = sumCards + 2;
                         break;
-                    case "3": sumCards = sumCards + 3;
+                    case "3":
+                        sumCards = sumCards + 3;
                         break;
-                    case "4": sumCards = sumCards + 4;
+                    case "4":
+                        sumCards = sumCards + 4;
                         break;
-                    case "5": sumCards = sumCards + 5;
+                    case "5":
+                        sumCards = sumCards + 5;
                         break;
-                    case "6": sumCards = sumCards + 6;
+                    case "6":
+                        sumCards = sumCards + 6;
                         break;
-                    case "7": sumCards = sumCards + 7;
+                    case "7":
+                        sumCards = sumCards + 7;
                         break;
-                    case "8": sumCards = sumCards + 8;
+                    case "8":
+                        sumCards = sumCards + 8;
                         break;
-                    case "9": sumCards = sumCards + 9;
+                    case "9":
+                        sumCards = sumCards + 9;
                         break;
-                    case "10": sumCards = sumCards + 10;
+                    case "10":
+                        sumCards = sumCards + 10;
                         break;
-                    case "j": sumCards = sumCards + 10;
+                    case "j":
+                        sumCards = sumCards + 10;
                         break;
-                    case "q": sumCards = sumCards + 10;
+                    case "q":
+                        sumCards = sumCards + 10;
                         break;
-                    case "k": sumCards = sumCards + 10;
+                    case "k":
+                        sumCards = sumCards + 10;
                         break;
-                    case "t": sumCards = sumCards + 10;
+                    case "t":
+                        sumCards = sumCards + 10;
                         break;
-                    case "J": sumCards = sumCards + 10;     //Повторно вводим case c J,Q,K,T так как пользователь может ввести как строчные так и прописные буквы
+                    case "J":
+                        sumCards = sumCards + 10;     //Повторно вводим case c J,Q,K,T так как пользователь может ввести как строчные так и прописные буквы
                         break;
-                    case "Q": sumCards = sumCards + 10;
+                    case "Q":
+                        sumCards = sumCards + 10;
                         break;
-                    case "K": sumCards = sumCards + 10;
+                    case "K":
+                        sumCards = sumCards + 10;
                         break;
-                    case "T": sumCards = sumCards + 10;
+                    case "T":
+                        sumCards = sumCards + 10;
                         break;
                     default:
                         Console.WriteLine("Такой карты не существует");
